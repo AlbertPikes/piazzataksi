@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Etiketleri -->
+    <title>Piazza Ak Taksi | Kahramanmaraş 7/24 Hızlı Taksi</title>
+    <meta name="description" content="Kahramanmaraş Piazza AVM yanı Ak Taksi durağı. 7/24 hızlı, güvenilir ve VIP konforunda ulaşım için hemen tek tıkla arayın.">
+    <meta name="keywords" content="piazza ak taksi, kahramanmaraş taksi, piazza avm taksi, onikişubat taksi, en yakın taksi">
+    <meta name="author" content="Piazza Ak Taksi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Coğrafi SEO (Yerel Arama Avantajı) -->
+    <meta name="geo.region" content="TR-46">
+    <meta name="geo.placename" content="Kahramanmaraş">
+    <meta name="geo.position" content="37.542389;36.915243">
+    <meta name="ICBM" content="37.542389, 36.915243">
+
+    <!-- Güvenlik: Clickjacking ve XSS Koruması İçin Meta Etiketleri -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Botları İçin Yapılandırılmış Veri (JSON-LD LocalBusiness Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TaxiService",
+      "name": "Piazza Ak Taksi",
+      "image": "https://images.unsplash.com/photo-1549194382-246c6fb35026",
+      "@id": "https://maps.app.goo.gl/3iLdD9fzVbM1ymGQ9",
+      "url": "https://www.piazzaaktaksi.com",
+      "telephone": "+905000000000",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Şazibey, Piazza AVM Yanı",
+        "addressLocality": "Onikişubat",
+        "addressRegion": "Kahramanmaraş",
+        "postalCode": "46060",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.542389,
+        "longitude": 36.915243
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo"><span>PIAZZA</span> AK TAKSİ</div>
+            <div class="status-badge"><div class="dot"></div> Araçlar Müsait (Piazza Durağı)</div>
+            <h1>En Yakın Taksi <br>Bir Tık Uzağınızda</h1>
+            <p class="description-text">Piazza AVM lokasyonunda beklemeyin, hemen arayın saniyeler içinde kapınıza gelelim.</p>
+        </header>
+
+        <!-- Ana Butonlar (Güvenlik için rel="noopener noreferrer" eklendi) -->
+        <div class="action-buttons">
+            <a href="tel:+905000000000" class="btn btn-call" id="callBtn">📞 Hemen Ara</a>
+            <a href="https://wa.me/905000000000" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp Konum At</a>
+            <a href="#iletisim" class="btn btn-contact">📍 Durak ve İletişim</a>
+        </div>
+
+        <!-- Harita Alanı -->
+        <div class="map-section">
+            <p class="map-title">DURAĞIMIZIN KONUMU</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.535091763785!2d36.91524387647007!3d37.54238967204558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152ba31317540237%3A0x8677c768997c603d!2sPiazza%20Ak%20Taksi!5e0!3m2!1str!2str!4v1715537000000!5m2!1str!2str" 
+                allowfullscreen="" 
+                loading="lazy"
+                title="Piazza Ak Taksi Durak Konumu">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Alt Bilgi Paneli -->
+    <footer id="iletisim" class="footer-contact">
+        <div class="container footer-container">
+            <h2>İletişim Bilgileri</h2>
+            
+            <div class="contact-item">
+                <div class="icon">☎️</div>
+                <div>
+                    <strong>7/24 DURAK HATTI</strong>
+                    <p>+90 500 000 00 00</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon">📍</div>
+                <div>
+                    <strong>DURAK ADRESİ</strong>
+                    <p>Şazibey, Piazza AVM Yanı, 46060 Onikişubat/Kahramanmaraş</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon">🕒</div>
+                <div>
+                    <strong>ÇALIŞMA SAATLERİ</strong>
+                    <p>Haftanın 7 günü, 24 Saat Kesintisiz Hizmet.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

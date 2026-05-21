@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Etiketleri -->
-    <title>Piazza Ak Taksi Kahramanmaraş 7/24 Hızlı Taksi</title>
-    <meta name="description" content="Kahramanmaraş Piazza bölgesi Ak Taksi durağı. 7/24 hızlı, güvenilir ve VIP konforunda ulaşım için hemen tek tıkla arayın.">
-    <meta name="keywords" content="piazza ak taksi, kahramanmaraş taksi, piazza 7/24 taksi, onikişubat taksi, en yakın taksi">
-    <meta name="author" content="Piazza Ak Taksi">
-    <meta name="robots" content="index, follow">
+    <!-- ========================================== -->
+    <!--  1. EN AGRESİF SEO META ETİKETLERİ         -->
+    <!-- ========================================== -->
+    <title>Piazza Ak Taksi | Kahramanmaraş 7/24 En Yakın Taksi Durağı</title>
+    <meta name="description" content="Kahramanmaraş Piazza Bölgesi Ak Taksi durağı. 7/24 hızlı, güvenilir, lüks ve en yakın taksi hizmeti. Tek tıkla arayın, aracınız saniyeler içinde kapınıza gelsin!">
+    <meta name="keywords" content="piazza ak taksi, kahramanmaraş taksi, piazza 7/24 taksi, maraş en yakın taksi, onikişubat taksi durağı, piazza avm taksi, ak taksi maraş, taksi numarası kahramanmaraş">
+    <meta name="author" content="Albert Pike">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://www.piazzataksi.com">
     
-    <!-- Coğrafi SEO (Yeni Konuma Göre Nokta Atışı) -->
-    <meta name="geo.region" content="TR-46">
+    <!-- Open Graph / Facebook SEO (Sosyal Medya Paylaşım Gücü) -->
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Piazza Ak Taksi | Kahramanmaraş 7/24 En Yakın Taksi Durağı">
+    <meta property="og:description" content="Kahramanmaraş Piazza Bölgesi Ak Taksi durağı. 7/24 güvenilir ve en yakın taksi hizmeti için hemen ara!">
+    <meta property="og:url" content="https://www.piazzataksi.com">
+    <meta property="og:site_name" content="Piazza Ak Taksi">
+
+    <!-- Twitter Card SEO -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Piazza Ak Taksi | Kahramanmaraş 7/24 En Yakın Taksi">
+    <meta name="twitter:description" content="7/24 hızlı, güvenilir ve VIP konforunda ulaşım için hemen tek tıkla arayın.">
+
+    <!-- ========================================== -->
+    <!--  2. COĞRAFİ SEO VE GEO-TARGETING (NIRVANA) -->
+    <!-- ========================================== -->
+    <meta name="geo.region" content="TR-46"> <!-- Kahramanmaraş İl Kodu -->
     <meta name="geo.placename" content="Kahramanmaraş">
-    <meta name="geo.position" content="37.5707239;36.9244785">
-    <meta name="ICBM" content="37.5707239, 36.9244785">
+    <meta name="geo.position" content="37.570724;36.924479"> <!-- Tam Nokta Atışı Koordinat -->
+    <meta name="ICBM" content="37.570724, 36.924479">
+    <meta name="DC.title" content="Piazza Ak Taksi">
 
     <!-- Güvenlik Meta Etiketleri -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -23,103 +42,155 @@
     
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Botları İçin Güncellenmiş Yapılandırılmış Veri -->
+    <!-- ========================================== -->
+    <!--  3. GELİŞMİŞ JSON-LD YEREL İŞLETME ŞEMASI   -->
+    <!-- ========================================== -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "TaxiService",
-      "name": "Piazza Ak Taksi",
-      "image": "https://images.unsplash.com/photo-1549194382-246c6fb35026",
-      "@id": "https://www.google.com/maps/place/Piazza+Taksi+7%2F24+Taksi/@37.5707239,36.9244785,17z",
-      "url": "https://www.piazzataksi.com",
-      "telephone": "+905448628897",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Piazza Bölgesi, 7/24 Taksi Durağı",
-        "addressLocality": "Onikişubat",
-        "addressRegion": "Kahramanmaraş",
-        "postalCode": "46060",
-        "addressCountry": "TR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 37.5707239,
-        "longitude": 36.9244785
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "00:00",
-        "closes": "23:59"
-      }
+      "@graph": [
+        {
+          "@type": "TaxiService",
+          "@id": "https://www.piazzataksi.com/#service",
+          "name": "Piazza Ak Taksi",
+          "description": "Kahramanmaraş Onikişubat Piazza bölgesinde 7/24 hızlı ve güvenilir ulaşım sağlayan nöbetçi taksi durağı.",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Piazza Ak Taksi",
+            "image": "https://images.unsplash.com/photo-1549194382-246c6fb35026",
+            "telephone": "+905000000000",
+            "priceRange": "$$",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piazza Bölgesi, Piazza Taksi 7/24 Durağı",
+              "addressLocality": "Onikişubat",
+              "addressRegion": "Kahramanmaraş",
+              "postalCode": "46060",
+              "addressCountry": "TR"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.5707239,
+              "longitude": 36.9244785
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Onikişubat"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Dulkadiroğlu"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Kahramanmaraş"
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Taksi Hizmetleri",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "7/24 Şehir İçi Ulaşım"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Piazza AVM Taksi Hizmeti"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Şehirler Arası Taksi Yolculuğu"
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
     </script>
 </head>
 <body>
 
-    <div class="container">
+    <main class="container">
+        <!-- Semantik HTML: Google hiyerarşisi için başlıklar optimize edildi -->
         <header>
             <div class="logo"><span>PIAZZA</span> AK TAKSİ</div>
-            <div class="status-badge"><div class="dot"></div> Aracımız Müsait (7/24 Durak)</div>
-            <h1>En Yakın Taksi <br>Bir Tık Uzağınızda</h1>
-            <p class="description-text">Bölgemizde beklemeyin, hemen arayın saniyeler içinde kapınıza gelelim.</p>
+            <div class="status-badge"><div class="dot"></div> Araçlar Müsait (7/24 Durak)</div>
+            <h1>Kahramanmaraş Piazza Taksi <br>Hızlı Ulaşım Hattı</h1>
+            <p class="description-text">Piazza bölgesinde nöbetçi taksi arıyorsanız beklemeyin; hemen arayın, dakikalar içinde kapınıza gelelim.</p>
         </header>
 
-        <!-- Ana Butonlar -->
-        <div class="action-buttons">
-            <a href="tel:+905448628897" class="btn btn-call" id="callBtn">📞 Hemen Ara</a>
-            <a href="https://wa.me/905448628897" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp Konum At</a>
-            <a href="#iletisim" class="btn btn-contact">📍 Durak ve İletişim</a>
-        </div>
+        <!-- Ana Butonlar (SEO için title ve veri etiketleri eklendi) -->
+        <section class="action-buttons">
+            <a href="tel:+905000000000" class="btn btn-call" id="callBtn" title="Piazza Ak Taksi Durağını Hemen Ara">📞 Hemen Ara</a>
+            <a href="https://wa.me/905000000000" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer" title="WhatsApp ile Konum Gönder ve Taksi Çağır">💬 WhatsApp Konum At</a>
+            <a href="#iletisim" class="btn btn-contact" title="Durak İletişim Bilgileri ve Adresi">📍 Durak ve İletişim</a>
+        </section>
 
-        <!-- DOĞRU KONUM: Piazza Taksi 7/24 Harita Alanı -->
-        <div class="map-section">
-            <p class="map-title">DURAĞIMIZIN KONUMU</p>
+        <!-- Harita Alanı -->
+        <section class="map-section">
+            <h2 class="map-title">PİAZZA TAKSI 7/24 DURAK KONUMU</h2>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.8143644919515!2d36.924438100000004!3d37.5708379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152dddac7ade7483%3A0xe762f6ab82f8655d!2sPiazza%20Taksi%207%2F24%20Taksi!5e0!3m2!1str!2str!4v1715540000000!5m2!1str!2str" 
                 allowfullscreen="" 
                 loading="lazy"
-                title="Piazza Ak Taksi Doğru Durak Konumu">
+                title="Piazza Ak Taksi Kahramanmaraş Canlı Konumu">
             </iframe>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <!-- Alt Bilgi Paneli -->
     <footer id="iletisim" class="footer-contact">
         <div class="container footer-container">
-            <h2>İletişim Bilgileri</h2>
+            <h2>Piazza Ak Taksi İletişim Bilgileri</h2>
             
             <div class="contact-item">
-                <div class="icon">☎️</div>
+                <div class="icon" aria-hidden="true">☎️</div>
                 <div>
-                    <strong>7/24 DURAK HATTI</strong>
-                    <p>+90 544 862 88 97 </p>
+                    <strong>7/24 MARAŞ TAKSİ HATTI</strong>
+                    <p>+90 500 000 00 00</p>
                 </div>
             </div>
 
             <div class="contact-item">
-                <div class="icon">📍</div>
+                <div class="icon" aria-hidden="true">📍</div>
                 <div>
-                    <strong>DURAK ADRESİ</strong>
+                    <strong>DURAK RESMİ ADRESİ</strong>
                     <p>Piazza Bölgesi, Piazza Taksi 7/24 Durağı, Onikişubat/Kahramanmaraş</p>
                 </div>
             </div>
 
             <div class="contact-item">
-                <div class="icon">🕒</div>
+                <div class="icon" aria-hidden="true">🕒</div>
                 <div>
                     <strong>ÇALIŞMA SAATLERİ</strong>
-                    <p>Haftanın 7 günü, 24 Saat Kesintisiz Hizmet.</p>
+                    <p>Haftanın 7 günü, 24 Saat Kesintisiz Kesintisiz Hizmet.</p>
                 </div>
+            </div>
+
+            <!-- Telif Hakkı ve Yazılımcı İmzası -->
+            <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e1e1e1; text-align: center; font-size: 0.8rem; color: #777; font-weight: 500;">
+                <p>&copy; 2026 Piazza Ak Taksi. Tüm Hakları Saklıdır.</p>
+                <p style="margin-top: 5px; font-size: 0.75rem; color: #aaa;">Developed by <span style="color: #555; font-weight: 700;">Albert Pike</span></p>
             </div>
         </div>
     </footer>
